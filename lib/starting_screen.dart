@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class StartingScreen extends StatelessWidget {
-  const StartingScreen(this.startQuiz, {super.key});
-  final void Function() startQuiz;
+  const StartingScreen({required this.startQuiz, super.key});
+  final void Function()? startQuiz;
 
   @override
   Widget build(BuildContext context) {
